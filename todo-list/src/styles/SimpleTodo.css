@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&family=Roboto:wght@100;300;400&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    color: rgb(112, 111, 111);
+}
+
+.wrap1{
+    background-color: rgb(0, 0, 0);
+    height: 100vh; 
+}
+.wrap2{
+    background-color: rgb(245, 245, 249);
+    height: 100vh; 
+}
+.todos{
+    background-color: rgb(246, 246, 246);
+    box-shadow: 0px 13px 20px 6px rgba(0,0,0,0.29);
+
+
+    /* height: 50vh; */
+}
+/* .todoslist{
+    width: 100px;
+} */
+.titulo{
+    font-size: 80px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;border: 1px 0px 0px 0px solid lightgray;
+ 
+}
+input{
+    background-color: rgb(246, 246, 246);
+    outline: 0;
+    border-width: 0 0 0px;
+    border-color: rgb(255, 255, 255) 
+}
+
+.i1{
+    border: 0px;
+    position: relative;
+}
+
+
+/* .x{
+    visibility: hidden;
+    transition: opacity .9s ease-in-out,visibility .9s ease-in-out,bottom .2s ease-in-out; 
+}/*crear transicion par que aparezca la x*/
+ 
+
+.hojas1{
+    background-color: rgb(2, 246, 246);
+    height: 0.3em;
+    width: 98%;
+    box-shadow: 1px 2px 2px 0px rgba(0,0,0,0.29) inset;
+   
+}
+.hojas2{
+    background-color: rgb(24, 246, 24);
+    height: 0.3em;
+    width: 96%;
+    box-shadow: 1px 2px 2px 0px rgba(0,0,0,0.29) inset;
+}
+
+
+/* box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.29) inset; */
