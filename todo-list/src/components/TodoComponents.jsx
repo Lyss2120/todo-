@@ -10,11 +10,9 @@ function TodoComponents() {
 
     const initialSt = [
         { id: 1, text: 'tarea1' },
-        { id: 2, text: 'tarea2' },
-        { id: 3, text: 'tarea3' },
     ]
 
-    const [tareas, setTareas] = useState(initialSt);
+    const [tareas, setTareas] = useState('');
     const [input, setInput] = useState('');
 
     const getId = () => {
@@ -49,7 +47,7 @@ function TodoComponents() {
                                 setInput={setInput}
                             />
                             <table className='text-secondary table mb-0 '>
-                                {
+                                {tareas.length > 0 &&
                                     tareas.map((tarea) => {
                                         console.log(tarea);
                                         return (
