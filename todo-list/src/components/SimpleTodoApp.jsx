@@ -37,11 +37,7 @@ const SimpleTodoApp = () => {
     return (
         <>
             <div className="container-fluid wrap1">
-
                 <div className="container wrap2">
-
-
-
                     <div className="row">
                         <div className="col-md-12">
                             <h2 className="text-center titulo text-muted">todos</h2>
@@ -55,7 +51,7 @@ const SimpleTodoApp = () => {
                                             <th scope="col" colspan="2" >
                                                 <form onSubmit={handleSubmit} >
                                                     <div className=" i1">
-                                                        <input type="text" className="" id="name" placeholder="Insert todo" value={name} onChange={(e) => setName(e.target.value)} />
+                                                        <input type="text" className="bg-warning" id="name" placeholder="Insert todo" value={name} onChange={(e) => setName(e.target.value)} />
                                                     </div>
                                                 </form>
                                             </th>

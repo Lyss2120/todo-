@@ -1,15 +1,15 @@
 import React from 'react'
 
-function TodoForm({text, setInput, handleSubmit}){
+function TodoForm({ text, setInput, handleSubmit }) {
 
-        
+
     return (
-        <>
-            <form  onSubmit={handleSubmit}>
-                <input type="text" class="border-0  form-control" value={text} onChange={(e) => setInput(e.target.value)} />
-            </form>
-        </>
+
+        <form onSubmit={handleSubmit}>
+            <input type="text" className="border-0 form-control" placeholder="Insert todo" value={text} onChange={(e) => setInput(e.target.value)} />
+        </form>
+
     )
-    }
+}
 
 export default TodoForm;

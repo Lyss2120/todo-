@@ -3,6 +3,7 @@
     background-color: rgb(230, 230, 230);
     height: 100vh;
     min-width: 350px;
+    max-width: 600px;
 }
 h1{
     font-size: 60px !important;
@@ -34,22 +35,14 @@ input{
     min-width: 290;
 }
 .x{
+    display: none;    
+}
+.x{
     display: none;
 }
 .bordee:hover > .x {
-    display:block;
-}
-.btn {
-    width: 1px;
-    height: 1px;
-}
-
-
-.xd{
-    display: none;
-}
-.bordee:hover > .xd {
-    display:block;
+    display:flex;
+    justify-content: end;
 }
 .btn  {
     color: rgb(255, 0, 119);

@@ -9,10 +9,9 @@ import TodosLeft from './TodosLeft';
 function TodoComponents() {
 
     const initialSt = [
-        { id: 1, text: 'despertar' },
-        { id: 2, text: 'desayunar' },
-        { id: 3, text: 'hacer aseo' },
-        { id: 3, text: 'hacer aseo' },
+        { id: 1, text: 'tarea1' },
+        { id: 2, text: 'tarea2' },
+        { id: 3, text: 'tarea3' },
     ]
 
     const [tareas, setTareas] = useState(initialSt);
