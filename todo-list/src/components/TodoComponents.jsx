@@ -10,9 +10,11 @@ function TodoComponents() {
 
     const initialSt = [
         { id: 1, text: 'tarea1' },
+        { id: 2, text: 'tarea2' },
+        { id: 3, text: 'tarea3' },
     ]
 
-    const [tareas, setTareas] = useState('');
+    const [tareas, setTareas] = useState(initialSt);
     const [input, setInput] = useState('');
 
     const getId = () => {
